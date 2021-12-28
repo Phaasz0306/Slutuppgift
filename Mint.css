@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+
+header{
+  background-image: linear-gradient(black, rgb(1, 1, 36));
+  
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-image: linear-gradient(to right, blue, rgb(172, 243, 208));
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20%;
+    width: 150px;
+     
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    padding-top: 0.5%;
+    
+  }
+ 
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: darkblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 44%;
+    border-radius: 20%;
+    
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: gray;
+    border-radius: 20%;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color:  gray;}
+
+
+body{
+    background-image: linear-gradient(to right,black, rgb(10, 40, 95));
+}
+
+.h1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgb(172, 243, 208);
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.Connect-Wallet{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    height: 100px;
+    
+    
+}
+
+.Connect{
+    color: rgb(172, 243, 208);
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 30%;
+    height: 100%;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.Button-Mint{
+    
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    height: 100px;
+    
+    
+    
+}
+
+.Mint{
+    color: rgb(172, 243, 208);
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 30%;
+    height: 100%;
+    font-size: 50px;
+    font-family: cursive;
+    
+}
+
+.Counter{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    color: rgb(172, 243, 208);
+    font-family: cursive;
+
+}
+
+footer{
+  background-color: black;
+  margin-top: 10%;
+  color: white;
+  padding: 10px;
+}
